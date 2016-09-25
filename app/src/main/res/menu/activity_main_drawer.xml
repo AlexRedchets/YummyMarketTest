@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <!--<group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
@@ -18,18 +18,27 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
-    </group>
+    </group>-->
 
-    <item android:title="Communicate">
+    <item android:title="From our">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_kitchen"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Kitchen" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_growers"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Growers" />
+            <item
+                android:id="@+id/nav_butcher"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Butcher" />
+            <item
+                android:id="@+id/nav_fishmonger"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fishmonger" />
+
         </menu>
     </item>
 
